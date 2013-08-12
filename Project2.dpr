@@ -2,7 +2,7 @@ program Project2;
 
 uses
   Vcl.Forms,
-  Unit5 in 'Unit5.pas' {Form5};
+  Unit55 in 'Unit55.pas' {Form5};
 
 {$R *.res}
 
