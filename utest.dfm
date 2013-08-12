@@ -21,4 +21,13 @@ object Form5: TForm5
     Caption = 'Button1'
     TabOrder = 0
   end
+  object Button2: TButton
+    Left = 16
+    Top = 128
+    Width = 385
+    Height = 65
+    Caption = 'Button2'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
 end

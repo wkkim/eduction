@@ -9,6 +9,8 @@ uses
 type
   TForm5 = class(TForm)
     Button1: TButton;
+    Button2: TButton;
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -21,5 +23,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm5.Button2Click(Sender: TObject);
+begin
+   showmessage('hi');
+end;
 
 end.
